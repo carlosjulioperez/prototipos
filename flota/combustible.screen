@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="3" x="23" y="16" width="800" height="600" text="Flota&#xA;http://..." measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="230" y="73" text="Registro de combustible de los vehículos / Nuevo" measuredWidth="300" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="5" x="230" y="100" text="Guardar" measuredWidth="69" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="8" x="210" y="130" width="613" measuredWidth="613" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="15" x="79" y="73" text="Su empresa" measuredWidth="75" measuredHeight="57" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="27" x="23" y="132" height="484" text="Vehículos&#xA;   Vehículos&#xA;   Contratos de vehículos&#xA;   Odómotros de los vehículos&#xA;|   Registros de combustible&#xA;   Registros de los servicios&#xA;   Costes del vehículo&#xA;   Rutas&#xA;Configuración&#xA;   Marca del vehículo&#xA;   Modelo del vehículo&#xA;   Estado del vehículo&#xA;   Tipo de servicios&#xA;   Usuario" measuredWidth="188" measuredHeight="484">
+    <font/>
+    <items x="0" y="2" width="188" height="20" text="Vehículos"/>
+    <items x="0" y="22" width="188" height="20" text="   Vehículos"/>
+    <items x="0" y="42" width="188" height="20" text="   Contratos de vehículos"/>
+    <items x="0" y="62" width="188" height="20" text="   Odómotros de los vehículos"/>
+    <items x="0" y="82" width="188" height="20" text="|   Registros de combustible"/>
+    <items x="0" y="102" width="188" height="20" text="   Registros de los servicios"/>
+    <items x="0" y="122" width="188" height="20" text="   Costes del vehículo"/>
+    <items x="0" y="142" width="188" height="20" text="   Rutas"/>
+    <items x="0" y="162" width="188" height="20" text="Configuración"/>
+    <items x="0" y="182" width="188" height="20" text="   Marca del vehículo"/>
+    <items x="0" y="202" width="188" height="20" text="   Modelo del vehículo"/>
+    <items x="0" y="222" width="188" height="20" text="   Estado del vehículo"/>
+    <items x="0" y="242" width="188" height="20" text="   Tipo de servicios"/>
+    <items x="0" y="262" width="188" height="20" text="   Usuario"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="29" x="207" y="69" height="65" measuredWidth="6" measuredHeight="65"/>
+  <widgets xsi:type="model:Button" id="43" x="310" y="100" text="Descartar" measuredWidth="78" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="53" x="230" y="175" text="Vehículo" measuredWidth="56" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="54" x="365" y="175" width="237" text="Chevrolet / Aveo Family / GYE-050" measuredWidth="237" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="55" x="230" y="205" text="Valor del odómetro" measuredWidth="119" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="56" x="365" y="205" width="72" text="500.00" measuredWidth="72" measuredHeight="22" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="57" x="441" y="205" width="50" text="Km" measuredWidth="50" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="58" x="230" y="137" text="Detalles del vehículo" measuredWidth="215" measuredHeight="32">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="59" x="230" y="237" text="Detalles de reabastecimiento de combustible" measuredWidth="458" measuredHeight="32">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="60" x="230" y="275" text="Galón" measuredWidth="40" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="61" x="365" y="275" width="72" text="0.00" measuredWidth="72" measuredHeight="22" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="62" x="230" y="305" text="Precio por galón" measuredWidth="103" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="63" x="365" y="305" width="72" text="0.00" measuredWidth="72" measuredHeight="22" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="64" x="230" y="335" text="Precio total" measuredWidth="73" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="65" x="365" y="335" width="72" text="0.00" measuredWidth="72" measuredHeight="22" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="66" x="230" y="367" text="Detalles adicionales" measuredWidth="206" measuredHeight="32">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="67" x="230" y="405" text="Fecha" measuredWidth="41" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="68" x="365" y="405" width="128" text="13/09/2017  " measuredWidth="128" measuredHeight="22"/>
+  <widgets xsi:type="model:Label" id="69" x="230" y="435" text="Comprador" measuredWidth="73" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="70" x="365" y="435" width="310" measuredWidth="310" measuredHeight="22" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="71" x="230" y="465" text="Referencia de\nfactura" measuredWidth="87" measuredHeight="36">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="72" x="365" y="465" width="310" measuredWidth="310" measuredHeight="22" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="73" x="365" y="495" width="310" height="98" measuredWidth="310" measuredHeight="98">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="74" x="230" y="505" text="Observaciones" measuredWidth="93" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="75" x="658" y="495" height="98" measuredWidth="17" measuredHeight="98"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

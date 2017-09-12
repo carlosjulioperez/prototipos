@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="3" x="23" y="16" width="800" height="600" text="Flota&#xA;http://..." measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="230" y="73" text="Cliente / Nuevo" measuredWidth="97" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="5" x="230" y="100" text="Guardar" measuredWidth="69" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="8" x="210" y="130" width="613" measuredWidth="613" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="15" x="79" y="73" text="Su empresa" measuredWidth="75" measuredHeight="57" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="27" x="23" y="132" height="484" text="Vehículos&#xA;   Vehículos&#xA;   Contratos de vehículos&#xA;   Odómotros de los vehículos&#xA;   Registros de combustible&#xA;   Registros de los servicios&#xA;   Costes del vehículo&#xA;   Rutas&#xA;Configuración&#xA;   Marca del vehículo&#xA;   Modelo del vehículo&#xA;   Estado del vehículo&#xA;   Tipo de servicios&#xA;   Usuario" measuredWidth="188" measuredHeight="484">
+    <font/>
+    <items x="0" y="2" width="188" height="20" text="Vehículos"/>
+    <items x="0" y="22" width="188" height="20" text="   Vehículos"/>
+    <items x="0" y="42" width="188" height="20" text="   Contratos de vehículos"/>
+    <items x="0" y="62" width="188" height="20" text="   Odómotros de los vehículos"/>
+    <items x="0" y="82" width="188" height="20" text="   Registros de combustible"/>
+    <items x="0" y="102" width="188" height="20" text="   Registros de los servicios"/>
+    <items x="0" y="122" width="188" height="20" text="   Costes del vehículo"/>
+    <items x="0" y="142" width="188" height="20" text="   Rutas"/>
+    <items x="0" y="162" width="188" height="20" text="Configuración"/>
+    <items x="0" y="182" width="188" height="20" text="   Marca del vehículo"/>
+    <items x="0" y="202" width="188" height="20" text="   Modelo del vehículo"/>
+    <items x="0" y="222" width="188" height="20" text="   Estado del vehículo"/>
+    <items x="0" y="242" width="188" height="20" text="   Tipo de servicios"/>
+    <items x="0" y="262" width="188" height="20" text="   Usuario"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="29" x="207" y="69" height="65" measuredWidth="6" measuredHeight="65"/>
+  <widgets xsi:type="model:Button" id="43" x="310" y="100" text="Descartar" measuredWidth="78" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="44" x="230" y="143" text="Crear cliente" measuredWidth="93" measuredHeight="22">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="46" x="230" y="220" width="389" text="Juan Andrés Loor" measuredWidth="389" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="48" x="232" y="195" text="Nombre" measuredWidth="54" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="49" x="230" y="255" text="Dirección" measuredWidth="62" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="50" x="308" y="255" width="207" text="Calle..." measuredWidth="207" measuredHeight="22">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="51" x="308" y="285" width="207" text="Calle 2..." measuredWidth="207" measuredHeight="22">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="52" x="308" y="315" width="101" text="Ciudad..." measuredWidth="101" measuredHeight="22">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="53" x="414" y="315" width="101" text="Provincia..." measuredWidth="101" measuredHeight="22">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="54" x="308" y="345" width="207" text="Ecuador" measuredWidth="207" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="55" x="230" y="375" text="Cédula/RUC" measuredWidth="76" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="56" x="308" y="375" width="207" text="Por ejemplo 091805666..." measuredWidth="207" measuredHeight="22">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="57" x="540" y="255" text="Teléfono" measuredWidth="54" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="58" x="618" y="255" width="190" measuredWidth="190" measuredHeight="22">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="59" x="540" y="285" text="Móvil" measuredWidth="36" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="60" x="618" y="285" width="190" text="123456789" measuredWidth="190" measuredHeight="22">
+    <font italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="61" x="540" y="315" width="79" text="Correo \nelectrónico" measuredWidth="79" measuredHeight="36">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="62" x="618" y="315" width="190" text="andresloor@aol.com" measuredWidth="190" measuredHeight="22">
+    <font italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="68" x="232" y="167" measuredWidth="181" measuredHeight="26">
+    <widgets xsi:type="model:List" id="66" text="(o) Individual" measuredWidth="90" measuredHeight="26" border="false" alpha="0">
+      <font/>
+      <items x="0" y="2" width="90" height="22" text="(o) Individual"/>
+    </widgets>
+    <widgets xsi:type="model:List" id="67" x="90" text="() Compañía" measuredWidth="91" measuredHeight="26" border="false" alpha="0">
+      <font/>
+      <items x="0" y="2" width="91" height="22" text="() Compañía"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

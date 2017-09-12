@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="3" x="23" y="16" width="800" height="600" text="Flota&#xA;http://..." measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="230" y="73" text="Contratos de vehículo / Nuevo" measuredWidth="187" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="5" x="230" y="100" text="Guardar" measuredWidth="69" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="8" x="210" y="130" width="613" measuredWidth="613" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="15" x="79" y="73" text="Su empresa" measuredWidth="75" measuredHeight="57" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="27" x="23" y="132" height="484" text="Vehículos&#xA;   Vehículos&#xA;|   Contratos de vehículos&#xA;   Odómotros de los vehículos&#xA;   Registros de combustible&#xA;   Registros de los servicios&#xA;   Costes del vehículo&#xA;   Rutas&#xA;Configuración&#xA;   Marca del vehículo&#xA;   Modelo del vehículo&#xA;   Estado del vehículo&#xA;   Tipo de servicios&#xA;   Usuario" measuredWidth="188" measuredHeight="484">
+    <font/>
+    <items x="0" y="2" width="188" height="20" text="Vehículos"/>
+    <items x="0" y="22" width="188" height="20" text="   Vehículos"/>
+    <items x="0" y="42" width="188" height="20" text="|   Contratos de vehículos"/>
+    <items x="0" y="62" width="188" height="20" text="   Odómotros de los vehículos"/>
+    <items x="0" y="82" width="188" height="20" text="   Registros de combustible"/>
+    <items x="0" y="102" width="188" height="20" text="   Registros de los servicios"/>
+    <items x="0" y="122" width="188" height="20" text="   Costes del vehículo"/>
+    <items x="0" y="142" width="188" height="20" text="   Rutas"/>
+    <items x="0" y="162" width="188" height="20" text="Configuración"/>
+    <items x="0" y="182" width="188" height="20" text="   Marca del vehículo"/>
+    <items x="0" y="202" width="188" height="20" text="   Modelo del vehículo"/>
+    <items x="0" y="222" width="188" height="20" text="   Estado del vehículo"/>
+    <items x="0" y="242" width="188" height="20" text="   Tipo de servicios"/>
+    <items x="0" y="262" width="188" height="20" text="   Usuario"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="29" x="207" y="69" height="65" measuredWidth="6" measuredHeight="65"/>
+  <widgets xsi:type="model:Button" id="43" x="310" y="100" text="Descartar" measuredWidth="78" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="44" x="230" y="143" text="Detalles del contrato" measuredWidth="148" measuredHeight="22">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="48" x="230" y="175" text="Vehículo" measuredWidth="56" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="50" x="230" y="205" text="Tipo" measuredWidth="31" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="52" x="399" y="100" text="Finalizar contrato" measuredWidth="123" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="53" x="531" y="100" text="Renovar contrato" measuredWidth="123" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="54" x="365" y="175" width="237" text="Chevrolet / Aveo Family / GYE-050" measuredWidth="237" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="55" x="365" y="205" width="237" text="Leasing" measuredWidth="237" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="56" x="230" y="235" text="Valor del odómetro" measuredWidth="119" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="57" x="365" y="235" width="72" text="500.00" measuredWidth="72" measuredHeight="22" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="58" x="441" y="235" width="50" text="Km" measuredWidth="50" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="59" x="230" y="265" text="Costo de activación" measuredWidth="123" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="60" x="365" y="265" width="72" text="0.00" measuredWidth="72" measuredHeight="22" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="61" x="230" y="315" text="Fecha de factura" measuredWidth="107" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="62" x="365" y="315" width="128" text="12/09/2017  " measuredWidth="128" measuredHeight="22"/>
+  <widgets xsi:type="model:Label" id="63" x="230" y="350" text="Fecha de inicio\nde contrato" measuredWidth="95" measuredHeight="36">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="64" x="365" y="355" width="128" text="12/09/2017  " measuredWidth="128" measuredHeight="22"/>
+  <widgets xsi:type="model:Label" id="65" x="230" y="390" text="Fecha de expiración\nde contrato" measuredWidth="126" measuredHeight="36">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="66" x="365" y="395" width="128" text="12/09/2018" measuredWidth="128" measuredHeight="22"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

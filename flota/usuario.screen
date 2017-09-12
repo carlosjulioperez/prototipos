@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="72" x="23" y="16" measuredWidth="800" measuredHeight="600">
+    <widgets xsi:type="model:Browser" id="3" width="800" height="600" text="Flota&#xA;http://..." measuredWidth="800" measuredHeight="600">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="230" y="73" text="Usuario / Nuevo" measuredWidth="101" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="5" x="230" y="100" text="Guardar" measuredWidth="69" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="8" x="210" y="130" width="613" measuredWidth="613" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="15" x="79" y="73" text="Su empresa" measuredWidth="75" measuredHeight="57" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="27" x="23" y="132" height="484" text="Vehículos&#xA;   Vehículos&#xA;   Contratos de vehículos&#xA;   Odómotros de los vehículos&#xA;   Registros de combustible&#xA;   Registros de los servicios&#xA;   Costes del vehículo&#xA;   Rutas&#xA;Configuración&#xA;   Marca del vehículo&#xA;   Modelo del vehículo&#xA;   Estado del vehículo&#xA;   Tipo de servicios&#xA;|   Usuario" measuredWidth="188" measuredHeight="484">
+    <font/>
+    <items x="0" y="2" width="188" height="20" text="Vehículos"/>
+    <items x="0" y="22" width="188" height="20" text="   Vehículos"/>
+    <items x="0" y="42" width="188" height="20" text="   Contratos de vehículos"/>
+    <items x="0" y="62" width="188" height="20" text="   Odómotros de los vehículos"/>
+    <items x="0" y="82" width="188" height="20" text="   Registros de combustible"/>
+    <items x="0" y="102" width="188" height="20" text="   Registros de los servicios"/>
+    <items x="0" y="122" width="188" height="20" text="   Costes del vehículo"/>
+    <items x="0" y="142" width="188" height="20" text="   Rutas"/>
+    <items x="0" y="162" width="188" height="20" text="Configuración"/>
+    <items x="0" y="182" width="188" height="20" text="   Marca del vehículo"/>
+    <items x="0" y="202" width="188" height="20" text="   Modelo del vehículo"/>
+    <items x="0" y="222" width="188" height="20" text="   Estado del vehículo"/>
+    <items x="0" y="242" width="188" height="20" text="   Tipo de servicios"/>
+    <items x="0" y="262" width="188" height="20" text="|   Usuario"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="29" x="207" y="69" height="65" measuredWidth="6" measuredHeight="65"/>
+  <widgets xsi:type="model:Button" id="43" x="310" y="100" text="Descartar" measuredWidth="78" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="46" x="310" y="175" width="389" text="Carlos Julio Pérez Q." measuredWidth="389" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="48" x="312" y="150" text="Nombre" measuredWidth="54" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="61" x="310" y="204" width="171" text="Correo electrónico" measuredWidth="171" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="62" x="308" y="229" width="391" text="carlosjulioperez@gmail.com" measuredWidth="391" measuredHeight="22">
+    <font italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="63" x="233" y="169" width="64" height="64" measuredWidth="64" measuredHeight="64" icon="user (large)"/>
+  <widgets xsi:type="model:WidgetGroup" id="70" x="233" y="280" height="185" measuredWidth="523" measuredHeight="185">
+    <widgets xsi:type="model:TabbedPane" id="65" width="523" height="185" text="Permisos de acceso,Preferencias" measuredWidth="523" measuredHeight="185" selection="0">
+      <items x="10" y="0" width="138" height="25" text="Permisos de acceso"/>
+      <items x="148" y="0" width="94" height="25" text="Preferencias"/>
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="77" x="250" y="322" measuredWidth="489" measuredHeight="119">
+    <widgets xsi:type="model:Combo" id="54" x="123" y="37" width="366" text="Empleado" measuredWidth="366" measuredHeight="22">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="66" text="Aplicación" measuredWidth="110" measuredHeight="32">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="69" x="1" y="37" text="Empleados" measuredWidth="72" measuredHeight="22">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="73" x="123" y="67" width="366" text="Conductor" measuredWidth="366" measuredHeight="22">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="74" x="1" y="67" text="Flota" measuredWidth="35" measuredHeight="22">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="75" x="123" y="97" width="366" measuredWidth="366" measuredHeight="22">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="76" x="1" y="97" text="Administración" measuredWidth="96" measuredHeight="22">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
