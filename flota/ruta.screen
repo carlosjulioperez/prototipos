@@ -44,20 +44,49 @@
   <widgets xsi:type="model:Label" id="58" x="230" y="137" text="Detalle de la ruta" measuredWidth="179" measuredHeight="32">
     <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="67" x="230" y="205" text="Fecha" measuredWidth="41" measuredHeight="22">
+  <widgets xsi:type="model:Label" id="67" x="230" y="205" text="Código de ruta" measuredWidth="95" measuredHeight="22">
     <font/>
   </widgets>
-  <widgets xsi:type="model:DateField" id="68" x="365" y="205" width="128" text="13/09/2017  " measuredWidth="128" measuredHeight="22"/>
-  <widgets xsi:type="model:Label" id="76" x="230" y="235" text="Tipo de servicio" measuredWidth="99" measuredHeight="22">
+  <widgets xsi:type="model:TextField" id="80" x="365" y="205" width="237" measuredWidth="237" measuredHeight="22" textAlignment="Right">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Combo" id="77" x="365" y="235" width="237" text="Registro tributario" measuredWidth="237" measuredHeight="22">
+  <widgets xsi:type="model:Label" id="81" x="230" y="235" text="Nombre de la ruta" measuredWidth="116" measuredHeight="22">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="78" x="230" y="265" text="Precio total" measuredWidth="73" measuredHeight="22">
+  <widgets xsi:type="model:TextField" id="82" x="365" y="235" width="237" measuredWidth="237" measuredHeight="22" textAlignment="Right">
     <font/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="79" x="365" y="265" width="72" text="855.00" measuredWidth="72" measuredHeight="22" textAlignment="Right">
+  <widgets xsi:type="model:Label" id="83" x="230" y="265" text="Origen" measuredWidth="46" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="84" x="230" y="295" text="Destino" measuredWidth="51" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="85" x="365" y="265" width="237" text="Manta" measuredWidth="237" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="86" x="365" y="295" width="237" text="Guayaquil" measuredWidth="237" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="87" x="230" y="337" text="Detalles adicionales" measuredWidth="206" measuredHeight="32">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="88" x="230" y="375" text="Coste unitario" measuredWidth="89" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="89" x="365" y="375" width="100" text="0.00" measuredWidth="100" measuredHeight="22" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="90" x="230" y="405" text="Distancia" measuredWidth="61" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="91" x="365" y="405" width="100" text="0.00" measuredWidth="100" measuredHeight="22" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="92" x="230" y="435" text="Costo total" measuredWidth="70" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="93" x="365" y="435" width="100" text="0.00" measuredWidth="100" measuredHeight="22" textAlignment="Right">
     <font/>
   </widgets>
   <hRuler/>

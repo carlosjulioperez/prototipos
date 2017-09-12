@@ -3,7 +3,7 @@
   <widgets xsi:type="model:Browser" id="3" x="23" y="16" width="800" height="600" text="Flota&#xA;http://..." measuredWidth="800" measuredHeight="600">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="4" x="230" y="73" text="Tipos de servicio" measuredWidth="105" measuredHeight="22">
+  <widgets xsi:type="model:Label" id="4" x="230" y="73" text="Tipos de servicios" measuredWidth="111" measuredHeight="22">
     <font/>
   </widgets>
   <widgets xsi:type="model:Button" id="5" x="313" y="100" text="Guardar" measuredWidth="69" measuredHeight="24">
