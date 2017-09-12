@@ -13,7 +13,7 @@
   <widgets xsi:type="model:Label" id="15" x="79" y="73" text="Su empresa" measuredWidth="75" measuredHeight="57" textAlignment="Center" icon="image (large)" iconPosition="top">
     <font/>
   </widgets>
-  <widgets xsi:type="model:List" id="27" x="23" y="132" height="484" text="Vehículos&#xA;   Vehículos&#xA;   Contratos de vehículos&#xA;   Odómotros de los vehículos&#xA;   Registros de combustible&#xA;   Registros de los servicios&#xA;   Costes del vehículo&#xA;   Rutas&#xA;Configuración&#xA;   Marca del vehículo&#xA;   Modelo del vehículo&#xA;   Estado del vehículo&#xA;|   Tipo de servicios&#xA;   Usuario" measuredWidth="188" measuredHeight="484">
+  <widgets xsi:type="model:List" id="27" x="23" y="132" height="484" text="Vehículos&#xA;   Vehículos&#xA;   Contratos de vehículos&#xA;   Odómotros de los vehículos&#xA;   Registros de combustible&#xA;   Registros de los servicios&#xA;   Costes del vehículo&#xA;   Rutas&#xA;Configuración&#xA;   Marca del vehículo&#xA;   Modelo del vehículo&#xA;   Estado del vehículo&#xA;|   Tipo de servicios&#xA;   Usuario&#xA;   Cliente" measuredWidth="188" measuredHeight="484">
     <font/>
     <items x="0" y="2" width="188" height="20" text="Vehículos"/>
     <items x="0" y="22" width="188" height="20" text="   Vehículos"/>
@@ -29,6 +29,7 @@
     <items x="0" y="222" width="188" height="20" text="   Estado del vehículo"/>
     <items x="0" y="242" width="188" height="20" text="|   Tipo de servicios"/>
     <items x="0" y="262" width="188" height="20" text="   Usuario"/>
+    <items x="0" y="282" width="188" height="20" text="   Cliente"/>
   </widgets>
   <widgets xsi:type="model:VLine" id="29" x="207" y="69" height="65" measuredWidth="6" measuredHeight="65"/>
   <widgets xsi:type="model:Button" id="43" x="393" y="100" text="Descartar" measuredWidth="78" measuredHeight="24">
